@@ -35,7 +35,7 @@
 
         //给地图添加点击事件，弹出距离输入对话框
         map.addEventListener("click", function(e) {   
-            var ds = window.prompt("Input Distance:(M)", "");
+            var ds = window.prompt("输入半径:(单位：米)", "");
 
             var pt = e.point;
             var marker = new BMap.Marker(pt);
